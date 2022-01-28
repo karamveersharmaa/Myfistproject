@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<title>Form</title>
+</head>
+<style>
+	.cdiv
+	{
+		background-color: skyblue;
+		color: black;
+
+	}
+</style>
+<body>
+	<h2><b>Registration Form<b></h2>
+	<form class = "cdiv">
+		<fieldset>
+			<legend>User Information</legend>
+    	<label for="firstname">First Name: </label><br/>
+              <input type="text" id="firstname" name="firstname"/> <br/>  
+        <label for="lastname">Last Name: </label>  <br/>
+              <input type="text" id="lastname" name="lastname"/> <br/>  
+    	Enter your address:<br><textarea rows="2" cols="20"></textarea><br/>
+    	<label for="password">Password: </label>  <br/>
+              <input type="password" id="password" name="password"/> <br/>  
+        <label for="email">E-mail: </label><br/>
+         	  <input type="E-mail" id="E-mail" name="E-mail"> <br/>
+        <label for="gender">Gender: </label>  <br/>
+              <input type="radio" id="gender" name="gender" value="male"/>Male  
+              <input type="radio" id="gender" name="gender" value="female"/>Female <br/> 
+        hobby: <br/>      
+        Cricket<input type="checkbox" id="cricket" name="cricket" value="cricket"/><br>
+                 
+        Football<input type="checkbox" id="football" name="football" value="football"/>
+                 <label for="football"></label> <br>  
+        Hockey<input type="checkbox" id="hockey" name="hockey" value="hockey"/>  
+                 <label for="hockey"></label> <br/>
+        <input type="submit" value="submit">
+        </fieldset>
+	</form>
+</body>
+</html>
